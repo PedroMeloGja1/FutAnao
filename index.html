@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AnãoFlix</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Live</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="video-section">
+            <!-- Embedding YouTube video using iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GtuPl6-iK7M?si=9Hvo3WmSRDnwo5YC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </iframe> 
+            
+        </section>
+
+        <section class="video-list">
+            <h2>More Videos</h2>
+            <ul>
+                <li><a href="#" onclick="loadVideo('dQw4w9WgXcQ')">Video 1</a></li>
+                <li><a href="#" onclick="loadVideo('LXb3EKWsInQ')">Video 2</a></li>
+                <li><a href="#" onclick="loadVideo('3JZ_D3ELwOQ')">Video 3</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Streaming Service. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
